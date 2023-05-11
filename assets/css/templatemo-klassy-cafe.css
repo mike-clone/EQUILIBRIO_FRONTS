@@ -264,7 +264,10 @@ header
 }
 
 .background-header .main-nav .logo {
-  line-height: 75px;
+  line-height: 95px;
+}
+.logo{
+  margin-bottom: 30px;
 }
 
 .background-header .nav {
