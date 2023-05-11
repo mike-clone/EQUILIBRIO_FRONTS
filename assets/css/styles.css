@@ -413,3 +413,8 @@ section {
   visibility: visible;
   opacity: 1;
 }
+
+.btn-color{
+  background-color: rgb(112, 164, 17);
+  color: white;
+}
