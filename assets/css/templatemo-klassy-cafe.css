@@ -116,16 +116,16 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bold Light', 'Calibri';
 }
 
 ::selection {
-  background: #fb5849;
+  background: rgb(186,203,20);
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #fb5849;
+  background: rgb(186,203,20);
   color: #fff;
 }
 
@@ -678,7 +678,8 @@ banner
 }
 
 #top .left-content h4 {
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: "Bold Light";
   color: #fff;
   font-size: 54px;
   font-weight: 700;
