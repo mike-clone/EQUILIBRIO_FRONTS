@@ -18,8 +18,8 @@ section {
     margin: 0 0 5px 0;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #e3e3ca;
-    font-family: "Poppins", sans-serif;
+    color: #70a411;
+    font-family: 'Bold Light','Calibri';
   }
   
   .section-title h2::after {
@@ -27,7 +27,8 @@ section {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #fd9042;
+    background: #e3e3ca;
+    font-family: 'Bold Light','Calibri';
     margin: 4px 10px;
   }
   
@@ -37,9 +38,20 @@ section {
     font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Poppins", sans-serif;
-    color: #70a411;
+    font-family: 'Calibri';
+    color: #BACB14;
   }
+
+  /*   Boton de enviar comentarios   */
+  .contact .php-email-form button[type=submit] {
+    background: #BACB14;
+    border: 0;
+    padding: 10px 24px;
+    color: #e3e3ca;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
   /* /:::::Pie de Pagina/ */
 .pie-pagina{
     width: 100%;
