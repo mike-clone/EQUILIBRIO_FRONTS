@@ -27,7 +27,7 @@ section {
     width: 120px;
     height: 1px;
     display: inline-block;
-    background: #fd9042;
+    background: rgb(112, 164, 17);
     margin: 4px 10px;
   }
   
@@ -400,4 +400,9 @@ section {
 .back-linkedin.active {
   visibility: visible;
   opacity: 1;
+}
+
+.btn-color{
+  background-color: rgb(112, 164, 17);
+  color: white;
 }
