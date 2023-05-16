@@ -147,13 +147,15 @@ body {
 
 .main-white-button a {
   font-size: 13px;
-  color: #bacb14;
-  background-color: #e3e3ca;
+  color: white;
+  background-color:rgb(38, 140, 14);
   padding: 12px 25px;
   display: inline-block;
   border-radius: 3px;
   font-weight: 600;
   transition: all .3s;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .main-white-button a:hover {
@@ -675,7 +677,7 @@ banner
 
 #top .left-content .inner-content {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   left: 50%;
 }
@@ -684,7 +686,7 @@ banner
   /* font-family: 'Dancing Script', cursive; */
   font-family: "Bold Light";
   color: #fff;
-  font-size: 54px;
+  font-size: 34px;
   font-weight: 700;
 }
 

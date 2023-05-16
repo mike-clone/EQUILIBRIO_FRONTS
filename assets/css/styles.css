@@ -418,3 +418,19 @@ section {
   background-color: rgb(112, 164, 17);
   color: white;
 }
+
+/* Estilo boton - carrusel */
+.cnt {
+  position: relative;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.contbtn {
+  position: absolute;
+  top: 90%; /* Ajusta la posición vertical según tus necesidades */
+  left: 90%; /* Ajusta la posición horizontal según tus necesidades */
+  transform: translateX(-50%);
+}
