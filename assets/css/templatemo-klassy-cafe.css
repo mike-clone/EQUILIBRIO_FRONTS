@@ -314,6 +314,7 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
+  font-size: 20px;
 }
 
 .header-area .main-nav .nav li a {
