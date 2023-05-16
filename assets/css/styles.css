@@ -44,7 +44,7 @@ section {
 
   /*   Boton de enviar comentarios   */
   .contact .php-email-form button[type=submit] {
-    background: #BACB14;
+    background: rgb(38, 140, 14);
     border: 0;
     padding: 10px 24px;
     color: #e3e3ca;
@@ -433,4 +433,16 @@ section {
   top: 90%; /* Ajusta la posición vertical según tus necesidades */
   left: 90%; /* Ajusta la posición horizontal según tus necesidades */
   transform: translateX(-50%);
+}
+
+.informacion{
+  color: rgb(112, 164, 17);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sub-informacion{
+  color: rgb(112, 164, 17);
+  font-size: 15px;
+  text-align: justify;
 }
