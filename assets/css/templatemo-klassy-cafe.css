@@ -159,7 +159,12 @@ body {
 }
 
 .main-white-button a:hover {
-  opacity: 0.9;
+  
+    text-decoration: none;
+    color: rgb(112,164,17);
+    background-color: rgba(255, 255, 255, 0.774);
+    border-color: #000000;
+  
 }
 
 .main-text-button a {
