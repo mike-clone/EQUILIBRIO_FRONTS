@@ -466,7 +466,7 @@ section {
   /* font-weight: bold; */
   text-align: center;
   margin: 0 10px; /* Margen lateral de 10px */
-  border: 2px solid rgb(38, 140, 14);
+  /* border: 2px solid rgb(38, 140, 14); */
 }
 
 .color-div{
