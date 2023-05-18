@@ -136,5 +136,29 @@
       onscroll(document, toggleBacktotop)
     }
   
+
+    // Aquí puedes agregar tus ubicaciones con las coordenadas correspondientes
+    var locations = [
+      { name: 'San Martín', lat: -7.181275, lng: -76.588606 },
+      { name: 'Cusco', lat: -13.529161398105604, lng: -71.97030383920642 },
+      { name: 'La libertad', lat: -8.033186, lng: -78.365647 },
+      { name: 'Ancash', lat: -9.390865, lng: -77.658928 },
+      { name: 'Lima', lat: -12.042915543363533, lng: -77.05762847179358 },
+      // Agrega más ubicaciones si lo deseas
+    ];
+
+    // Crea un objeto de mapa y establece la ubicación y el nivel de zoom inicial
+    var map = L.map('map').setView([-9.429720534607323, -75.45098387739934], 4.5);
+
+    // Agrega el mosaico de mapa base de OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Agrega marcadores para cada ubicación
+    locations.forEach(function(location) {
+      var marker = L.marker([location.lat, location.lng]).addTo(map);
+      marker.bindPopup(location.name);
+    });
   
   })()
