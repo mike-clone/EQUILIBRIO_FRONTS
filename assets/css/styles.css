@@ -5,11 +5,11 @@ section {
     padding: 60px 0;
     overflow: hidden;
   }
-  
+
   .section-title {
     padding-bottom: 40px;
   }
-  
+
   .section-title h2 {
     font-size: 14px;
     font-weight: 500;
@@ -21,7 +21,7 @@ section {
     color: #70a411;
     font-family: 'Bold Light','Calibri';
   }
-  
+
   .section-title h2::after {
     content: "";
     width: 120px;
@@ -31,7 +31,7 @@ section {
     font-family: 'Bold Light','Calibri';
     margin: 4px 10px;
   }
-  
+
   .section-title p {
     margin: 0;
     margin: 0;
@@ -138,14 +138,14 @@ section {
     border-radius: 19px;
     color: white;
     line-height: 1cm;
-  
+
 }
 .botonDonar:hover{
     text-decoration: none;
     color: #eb680a;
     background-color: rgb(206, 206, 206);
     border-color: #111;
-  
+
 }
 .cursorIcon{
   cursor: pointer;
@@ -430,7 +430,7 @@ section {
 
 .contbtn {
   position: absolute;
-  top: 90%; /* Ajusta la posición vertical según tus necesidades */
+  top: 88%; /* Ajusta la posición vertical según tus necesidades */
   left: 90%; /* Ajusta la posición horizontal según tus necesidades */
   transform: translateX(-50%);
 }
@@ -471,4 +471,48 @@ section {
 
 .color-div{
   background-color: rgb(112, 164, 17);
+}
+
+
+.caja {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(38, 140, 14);
+  color: white;
+  padding: 10px;
+  margin-top: 15px; 
+  border-radius: 5px;
+  background: rgb(38, 140, 14);
+  cursor: pointer;
+}
+
+.more-info{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  margin-top: 15px; 
+  justify-content: center;
+}
+
+.icono {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.btn-color{
+  /* background-color: rgb(38, 140, 14); */
+  border-radius: 5px;
+  border: 2px solid rgb(38, 140, 14);
+}
+
+.alcance-h2{
+  color: rgb(38, 140, 14); 
+  font-weight: bold; 
+  text-align: center;
+}
+
+.alcance-h4{
+  text-align: center; 
+  color: #bacb14;
 }

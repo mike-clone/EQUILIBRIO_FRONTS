@@ -80,7 +80,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bold Light', 'Calibri';
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -314,7 +314,7 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .header-area .main-nav .nav li a {
@@ -531,7 +531,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fb5849;
+  color: rgb(38, 140, 14);
 }
 
 @media (max-width: 1200px) {
@@ -550,7 +550,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fb5849!important;
+    color: rgb(38, 140, 14)!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -604,11 +604,11 @@ header
     padding: 0px !important;
     border: none !important;
     background: #f7f7f7 !important;
-    color: #191a20 !important;
+    color: rgb(122,168,17) !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fb5849!important;
+    color: rgb(38, 140, 14) !important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -672,15 +672,15 @@ banner
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  width: 100%;
+  width: 120%;
   height: 100%;
 }
 
 #top .left-content .inner-content {
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translate(-50%, -50%);
-  left: 50%;
+  left: 40%;
 }
 
 #alianzas .left-content .inner-content {
@@ -691,7 +691,6 @@ banner
 }
 
 #top .left-content h4 {
-  /* font-family: 'Dancing Script', cursive; */
   font-family: "Bold Light";
   color: #fff;
   font-size: 34px;
@@ -784,7 +783,7 @@ banner
   border-radius: 50%;
   text-align:center;
   font-size: 36px;
-  font-family: 'FontAwesome';
+  font-family: 'Bold Light', 'Calibri';
   color:#FFF;
   z-index:5;
   outline: none;
@@ -813,7 +812,7 @@ banner
   border-radius: 50%;
   text-align:center;
   font-size: 36px;
-  font-family: 'FontAwesome';
+  font-family: 'Bold Light', 'Calibri';
   color:#FFF;
   z-index:5;
   outline: none;
@@ -1032,8 +1031,8 @@ menu
 
 #menu .owl-nav .owl-prev:before {
   display: inline-block;
-  font-family: 'FontAwesome';
-  color: #fb5849;
+  font-family: 'Bold Light', 'Calibri';
+  color: rgb(38, 140, 14);
   font-size: 25px;
   font-weight: 700;
   content: '\f104';
@@ -1064,8 +1063,8 @@ menu
 
 #menu .owl-nav .owl-next:before {
   display: inline-block;
-  font-family: 'FontAwesome';
-  color: #fb5849;
+  font-family: 'Bold Light', 'Calibri';
+  color: rgb(38, 140, 14);
   font-size: 25px;
   font-weight: 700;
   content: '\f105';

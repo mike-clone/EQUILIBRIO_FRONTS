@@ -160,5 +160,12 @@
       var marker = L.marker([location.lat, location.lng]).addTo(map);
       marker.bindPopup(location.name);
     });
+
+
+    // OCULTAR PROGRAMAS
+    function toggleTexto() {
+      var textoDesplegado = document.querySelector('.texto-desplegado');
+      textoDesplegado.style.display = textoDesplegado.style.display === 'none' ? 'block' : 'none';
+    }
   
   })()
