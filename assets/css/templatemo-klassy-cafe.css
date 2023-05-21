@@ -915,7 +915,7 @@ about
 
 /*
 ---------------------------------------------
-about
+impacto
 ---------------------------------------------
 */
 
@@ -966,6 +966,116 @@ about
 #impacto .right-content .thumb a:hover {
   opacity: .9;
 }
+
+
+/*
+---------------------------------------------
+programas
+---------------------------------------------
+*/
+
+#programas {
+  margin-top: 20px;
+  padding: 100px 0px 0px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+#programas .section-heading h2 {
+  padding-right: 120px;
+}
+
+#programas img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#programas .left-text-content p {
+  margin-bottom: 25px;
+}
+
+#programas .right-content {
+  margin-left: 30px;
+}
+
+#programas .right-content .thumb {
+  position: relative;
+}
+
+#programas .right-content .thumb a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  text-align: center;
+  background-color: rgb(122,168,17);
+  color: #fff;
+  border-radius: 50%;
+  transform: translate(-35px, -35px);
+  transition: all .3s;
+}
+
+#programas .right-content .thumb a:hover {
+  opacity: .9;
+}
+
+
+/*
+---------------------------------------------
+laborsocial
+---------------------------------------------
+*/
+
+#laborsocial {
+  margin-top: 20px;
+  padding: 100px 0px 0px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+#laborsocial .section-heading h2 {
+  padding-right: 120px;
+}
+
+#laborsocial img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#laborsocial .left-text-content p {
+  margin-bottom: 25px;
+}
+
+#laborsocial .right-content {
+  margin-left: 30px;
+}
+
+#laborsocial .right-content .thumb {
+  position: relative;
+}
+
+#laborsocial .right-content .thumb a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  text-align: center;
+  background-color: rgb(122,168,17);
+  color: #fff;
+  border-radius: 50%;
+  transform: translate(-35px, -35px);
+  transition: all .3s;
+}
+
+#laborsocial .right-content .thumb a:hover {
+  opacity: .9;
+}laborsocial
 
 /*
 ---------------------------------------------
