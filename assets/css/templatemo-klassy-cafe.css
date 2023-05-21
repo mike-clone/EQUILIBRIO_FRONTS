@@ -915,6 +915,60 @@ about
 
 /*
 ---------------------------------------------
+about
+---------------------------------------------
+*/
+
+#impacto {
+  margin-top: 20px;
+  padding: 100px 0px 0px 0px;
+  position: relative;
+  z-index: 9;
+}
+
+#impacto .section-heading h2 {
+  padding-right: 120px;
+}
+
+#impacto img {
+  width: 100%;
+  overflow: hidden;
+}
+
+#impacto .left-text-content p {
+  margin-bottom: 25px;
+}
+
+#impacto .right-content {
+  margin-left: 30px;
+}
+
+#impacto .right-content .thumb {
+  position: relative;
+}
+
+#impacto .right-content .thumb a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  line-height: 70px;
+  text-align: center;
+  background-color: rgb(122,168,17);
+  color: #fff;
+  border-radius: 50%;
+  transform: translate(-35px, -35px);
+  transition: all .3s;
+}
+
+#impacto .right-content .thumb a:hover {
+  opacity: .9;
+}
+
+/*
+---------------------------------------------
 menu
 ---------------------------------------------
 */

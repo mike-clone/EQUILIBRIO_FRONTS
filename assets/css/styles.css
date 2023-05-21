@@ -516,3 +516,16 @@ section {
   text-align: center; 
   color: #bacb14;
 }
+
+.card-title h4{
+  color: rgb(38, 140, 14);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body p{
+  color:rgb(112, 164, 17);
+  font-size: 17px;
+  text-align: justify;
+}
