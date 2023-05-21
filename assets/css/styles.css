@@ -627,4 +627,7 @@ section {
 
 .alianzas{
   background: url('../fotos/patron02.jpeg') no-repeat fixed;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
 }
