@@ -466,6 +466,16 @@ section {
   width: 80%;
 }
 
+#lati {
+  height: 450px;
+  width: 80%;
+}
+
+#egi {
+  height: 450px;
+  width: 80%;
+}
+
 /* LOGROS */
 .text-box-container {
   display: flex;

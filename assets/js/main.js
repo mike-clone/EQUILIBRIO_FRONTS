@@ -136,7 +136,7 @@
       onscroll(document, toggleBacktotop)
     }
   
-
+    //Perú
     // Aquí puedes agregar tus ubicaciones con las coordenadas correspondientes
     var locations = [
       { name: 'San Martín', lat: -7.181275, lng: -76.588606 },
@@ -161,4 +161,47 @@
       marker.bindPopup(location.name);
     });
   
+
+    //Latinoamerica
+     // Aquí puedes agregar tus ubicaciones con las coordenadas correspondientes
+     var lugares = [
+      { name: 'Lima', lat: -12.042915543363533, lng: -77.05762847179358 },
+      // Agrega más ubicaciones si lo deseas
+    ];
+
+    // Crea un objeto de mapa y establece la ubicación y el nivel de zoom inicial
+    var lati = L.map('lati').setView([-26.210772, -60.458868], 3);
+
+    // Agrega el mosaico de mapa base de OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(lati);
+
+    // Agrega marcadores para cada ubicación
+    lugares.forEach(function(location) {
+      var marker = L.marker([location.lat, location.lng]).addTo(lati);
+      marker.bindPopup(location.name);
+    });
+
+    //Egipto
+    // Aquí puedes agregar tus ubicaciones con las coordenadas correspondientes
+     var luga = [
+      { name: 'El Cario', lat: 30.047727429705773, lng: 31.237343330492568 },
+      // Agrega más ubicaciones si lo deseas
+    ];
+
+    // Crea un objeto de mapa y establece la ubicación y el nivel de zoom inicial
+    var egi = L.map('egi').setView([27.003363, 30.044189], 5);
+
+    // Agrega el mosaico de mapa base de OpenStreetMap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(egi);
+
+    // Agrega marcadores para cada ubicación
+    luga.forEach(function(location) {
+      var marker = L.marker([location.lat, location.lng]).addTo(egi);
+      marker.bindPopup(location.name);
+    });
+
   })()
