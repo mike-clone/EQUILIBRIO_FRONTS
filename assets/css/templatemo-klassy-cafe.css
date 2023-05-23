@@ -783,7 +783,8 @@ banner
   border-radius: 50%;
   text-align:center;
   font-size: 36px;
-  font-family: 'Bold Light', 'Calibri';
+  /* font-family: 'Bold Light', 'Calibri'; */
+  font-family: FontAwesome;
   color:#FFF;
   z-index:5;
   outline: none;
@@ -812,7 +813,8 @@ banner
   border-radius: 50%;
   text-align:center;
   font-size: 36px;
-  font-family: 'Bold Light', 'Calibri';
+  /* font-family: 'Bold Light', 'Calibri'; */
+  font-family: FontAwesome;
   color:#FFF;
   z-index:5;
   outline: none;
