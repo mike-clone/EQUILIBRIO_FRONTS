@@ -654,3 +654,58 @@ section {
   min-height: 650px;
   position: relative;
 }
+
+
+/* ESTILOS BLOG  */
+.papers,.papers:before,.papers:after {
+	background-color:#fff;
+	border:1px solid #ccc;
+	box-shadow:inset 0 0 30px rgba(0,0,0,0.1),1px 1px 3px rgba(0,0,0,0.2);
+}
+.papers {
+	position:relative;
+	width:90%;
+	padding:2em;
+	margin:0px auto;
+	margin-top:40px;
+	font-size:12px;
+  border-color: rgb(186, 203, 20);
+}
+.papers:before,.papers:after {
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	-webkit-transform:rotateZ(2.5deg);
+	-o-transform:rotate(2.5deg);
+	transform:rotateZ(2.5deg);
+	z-index:-1;
+}
+.papers:after {
+	-webkit-transform:rotateZ(-2.5deg);
+	-o-transform:rotate(-2.5deg);
+	transform:rotateZ(-2.5deg);
+}
+.papers h4 {
+	font-size:1.8em;
+	font-weight:normal;
+	text-align:center;
+	padding:0.2em 0;
+	margin:0;
+  font-weight: bold;
+  color: rgb(38, 140, 14);
+	border-top:1px solid rgb(186, 203, 20);
+	border-bottom:1px solid rgb(186, 203, 20);
+}
+.papers p {
+	text-align:justify;
+	margin:1.5em 0;
+  color: rgb(112, 164, 17);
+}
+.papers img {
+	width:100%;
+	margin-bottom: 5px;
+}
+/* --- FINAL BLOG --- */
