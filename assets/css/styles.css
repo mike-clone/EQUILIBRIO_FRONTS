@@ -471,11 +471,6 @@ section {
   width: 80%;
 }
 
-#egi {
-  height: 450px;
-  width: 80%;
-}
-
 /* LOGROS */
 .text-box-container {
   display: flex;
@@ -709,3 +704,12 @@ section {
 	margin-bottom: 5px;
 }
 /* --- FINAL BLOG --- */
+
+.atencion-h5{
+  text-align: center; 
+  color: #bacb14;
+}
+
+.image-container{
+  margin: auto;
+}
