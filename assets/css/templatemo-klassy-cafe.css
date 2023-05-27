@@ -1397,11 +1397,12 @@ reservation
 #reservation {
   margin-top: 120px;
   padding: 120px 0px;
-  background-image: url(../fotos/IMG_7015.JPG);
+  background-image: url(../fotos/fondo_citas.png);
   background-color: rgba(0, 0, 0, 0.5);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color:rgb(38, 140, 14)
 }
 
 #reservation .phone,

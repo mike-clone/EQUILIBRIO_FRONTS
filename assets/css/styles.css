@@ -471,23 +471,28 @@ section {
   width: 80%;
 }
 
-/* LOGROS */
-/* .text-box-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-.text-box {
+.text-box{
   flex: 1;
   padding: 20px;
   color: white;
+  /* font-weight: bold; */
   text-align: center;
+  margin: 0 10px; /* Margen lateral de 10px */
+  /* border: 2px solid rgb(38, 140, 14); */
   margin: 0 10px; 
 }
 
-.color-div{
-  background-color: rgb(112, 164, 17);
-} */
+/* LOGROS */
+.cd-box{
+  border: 2px;
+  padding: 10px;
+  background-color: rgb(38, 140, 14);
+}
+
+.card-body h4{
+  color: white;
+  text-align: justify;
+}
 
 
 .caja {
