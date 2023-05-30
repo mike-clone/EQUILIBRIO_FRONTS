@@ -454,7 +454,7 @@ section {
 
 .contbtn {
   position: absolute;
-  top: 50%; /* Ajusta la posición vertical según tus necesidades */
+  top: 90%; /* Ajusta la posición vertical según tus necesidades */
   left: 45%; /* Ajusta la posición horizontal según tus necesidades */
   transform: translateX(-10%);
 }
