@@ -415,8 +415,19 @@ section {
 }
 
 .btn-color{
-  background-color: rgb(112, 164, 17);
+  border: none;
+  background: rgb(38, 140, 14);
+  padding: 16px 30px;
+  border-radius: 6px;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.btn-color:hover{
+  box-shadow: 0 0 0 4px #fff,
+  0 0 0 8px rgb(112, 164, 17);
   color: white;
+  font-weight: bold;
 }
 
 /* Estilo boton - carrusel */
@@ -443,9 +454,9 @@ section {
 
 .contbtn {
   position: absolute;
-  top: 88%; /* Ajusta la posición vertical según tus necesidades */
-  left: 90%; /* Ajusta la posición horizontal según tus necesidades */
-  transform: translateX(-50%);
+  top: 50%; /* Ajusta la posición vertical según tus necesidades */
+  left: 45%; /* Ajusta la posición horizontal según tus necesidades */
+  transform: translateX(-10%);
 }
 
 .informacion{
