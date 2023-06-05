@@ -543,7 +543,7 @@ header
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header-area .main-nav .logo_eq {
     color: rgb(122,168,17);
   }
@@ -642,7 +642,7 @@ header
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
