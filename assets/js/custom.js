@@ -26,6 +26,8 @@
 	    filter: data
 	  })
 	});
+	
+	  
 
 	var $grid = $(".grid").isotope({
 	  itemSelector: ".all",

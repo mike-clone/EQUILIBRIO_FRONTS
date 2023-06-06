@@ -35,7 +35,7 @@
     let backtotop = select('.back-to-top')
     if (backtotop) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200 && window.scrollY<7050) {
           backtotop.classList.add('active')
         } else {
           backtotop.classList.remove('active')
@@ -48,7 +48,7 @@
     let icnDonar = select('.back-up')
     if (icnDonar) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200 && window.scrollY<7050) {
           icnDonar.classList.add('active')
         } else {
           icnDonar.classList.remove('active')
@@ -61,7 +61,7 @@
     let icnYoutube = select('.back-youtube')
     if (icnYoutube) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200  && window.scrollY<7050) {
           icnYoutube.classList.add('active')
         } else {
           icnYoutube.classList.remove('active')
@@ -74,7 +74,7 @@
     let icnTiktok = select('.back-tiktok')
     if (icnTiktok) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200 && window.scrollY<7050) {
           icnTiktok.classList.add('active')
         } else {
           icnTiktok.classList.remove('active')
@@ -87,7 +87,7 @@
     let icnFacebook = select('.back-facebook')
     if (icnFacebook) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200 && window.scrollY<7050) {
           icnFacebook.classList.add('active')
         } else {
           icnFacebook.classList.remove('active')
@@ -100,7 +100,7 @@
     let icnInstagram = select('.back-instagram')
     if (icnInstagram) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200  && window.scrollY<7050) {
           icnInstagram.classList.add('active')
         } else {
           icnInstagram.classList.remove('active')
@@ -113,7 +113,7 @@
     let icnTwitter = select('.back-twitter')
     if (icnTwitter) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200 && window.scrollY<7050) {
           icnTwitter.classList.add('active')
         } else {
           icnTwitter.classList.remove('active')
@@ -126,7 +126,7 @@
     let icnLinkedin = select('.back-linkedin')
     if (icnLinkedin) {
       const toggleBacktotop = () => {
-        if (window.scrollY > 200) {
+        if (window.scrollY > 200 && window.scrollY<7050) {
           icnLinkedin.classList.add('active')
         } else {
           icnLinkedin.classList.remove('active')
