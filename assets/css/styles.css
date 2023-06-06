@@ -457,34 +457,48 @@ section {
   background-color: rgba(38, 140, 45, 0.815);
   color: white;
   opacity: 0.9;
-  animation:slide-top 0.4s linear both
+  /* animation:slide-top 0.4s linear both */
+}
+
+@media (max-width: 968px) {
+  .btnDonar_Slider {
+    font-size: 18px; /* Tamaño de fuente más pequeño en dispositivos más pequeños */
+    transform: translate(-20%, -10%);
+  }
+}
+
+@media (max-width: 868px) {
+  .btnDonar_Slider {
+    font-size: 18px; /* Tamaño de fuente más pequeño en dispositivos más pequeños */
+    transform: translate(-20%, -20%);
+  }
 }
 
 @media (max-width: 768px) {
   .btnDonar_Slider {
     font-size: 18px; /* Tamaño de fuente más pequeño en dispositivos más pequeños */
-    transform: translateY(-10px);
+    transform: translate(-20%, -30%);
   }
 }
 
 @media (max-width: 680px) {
   .btnDonar_Slider {
     font-size: 16px; /* Tamaño de fuente aún más pequeño en dispositivos móviles */
-    transform: translateY(-15px);
+    transform: translate(-20%, -40%);
   }
 }
 
 @media (max-width: 580px) {
   .btnDonar_Slider {
     font-size: 16px; /* Tamaño de fuente aún más pequeño en dispositivos móviles */
-    transform: translateY(-20px);
+    transform: translate(-40%, -50%);
   }
 }
 
 @media (max-width: 480px) {
   .btnDonar_Slider {
     font-size: 14px; /* Tamaño de fuente aún más pequeño en dispositivos móviles */
-    transform: translate(-40%, 160%);
+    transform: translate(-40%, 120%);
   }
 }
 
