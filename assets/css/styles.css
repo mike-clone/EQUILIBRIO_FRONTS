@@ -40,6 +40,7 @@ section {
     text-transform: uppercase;
     font-family: 'Calibri';
     color: #BACB14;
+    line-height: 1.0;
   }
 
   /*   Boton de enviar comentarios   */
