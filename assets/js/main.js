@@ -146,7 +146,7 @@
       { name: 'Lima', lat: -12.042915543363533, lng: -77.05762847179358 },
     ];
 
-    var map = L.map('map').setView([-9.429720534607323, -75.45098387739934], 4.5);
+    var map = L.map('map',{scrollWheelZoom: false}).setView([-9.429720534607323, -75.45098387739934], 4.5);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -167,7 +167,7 @@
       { name: 'Argentina', lat: -35.342572643572595, lng: -64.98915890983525 },
     ];
 
-    var lati = L.map('lati').setView([-5.429720534607323, -65.45098387739934], 2.4);
+    var lati = L.map('lati',{scrollWheelZoom: false}).setView([-5.429720534607323, -65.45098387739934], 2.4);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

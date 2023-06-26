@@ -781,3 +781,33 @@ section {
 .image-container{
   margin: auto;
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .hidden-container {
+    display: block; /* Muestra la primera clase en modo móvil */
+  }
+  .nhidden-container {
+    display: none; /* Oculta la segunda clase en modo móvil */
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-container {
+    display: block; /* Oculta la primera clase en pantallas medianas */
+  }
+  .nhidden-container {
+    display: block; /* Muestra la segunda clase en pantallas medianas */
+  }
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 992px) {
+  .hidden-container {
+    display: block; /* Oculta la primera clase en pantallas más grandes */
+  }
+  .nhidden-container {
+    display: block; /* Muestra la segunda clase en pantallas más grandes */
+  }
+}
