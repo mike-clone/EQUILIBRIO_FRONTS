@@ -811,3 +811,27 @@ section {
     display: block; /* Muestra la segunda clase en pantallas más grandes */
   }
 }
+
+.read-more-btn{
+  background-color: rgb(38, 140, 14);
+  border: none;
+  border-radius: 40px;
+  padding: 15px 32px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px rgb(38, 140, 14);
+  cursor: pointer;
+}
+
+.read-more-btn:hover{
+  box-shadow: none;
+  background-color: rgb(186, 203, 20);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.hideText {
+  display: none;
+}
+
+.showText {
+  display: block;
+}
